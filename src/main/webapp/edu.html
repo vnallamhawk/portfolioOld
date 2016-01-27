@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <title>Education Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+$(document).ready(function(){
+    $("select").change(function(){
+        $(this).find("option:selected").each(function(){
+            if($(this).attr("value")=="school"){
+                $(".box").not(".school").hide();
+                $(".school").show();
+            }
+            else if($(this).attr("value")=="college"){
+                $(".box").not(".college").hide();
+                $(".college").show();
+            }
+            else if($(this).attr("value")=="graduate"){
+                $(".box").not(".graduate").hide();
+                $(".graduate").show();
+            }
+            else{
+                $(".box").hide();
+            }
+        });
+    }).change();
+});
+</script>
+  
+</head>
+ <body style="height:1500px">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Rakesh Portfolio</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">About Me</a></li>
+      <li><a href="edu.html">Education Details</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="container">
+      <span> Choose the Education Level to get the information: </span>
+        <select> 
+            <option>Select</option>
+            <option value="school">School</option>
+            <option value="college">Undergraduate</option>
+            <option value="graduate">Graduate</option>
+        </select>
+    </div>
+    <div class="school box">You have selected <strong>red option</strong> so i am here
+    
+
+    <table class="table">
+
+        <thead>
+
+            <tr>
+
+                <th>Year</th>
+
+                <th>Standard</th>
+
+                <th>Percentage Attained</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr class="active">
+
+                <td>2005</td>
+
+                <td>10th</td>
+
+                <td>85</td>
+
+            </tr>
+
+            <tr class="active">
+
+                <td>2007</td>
+
+                <td>12th</td>
+
+                <td>87</td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+    </div>
+     <div class="college box"><b> UNDERGRAD INFORMATION</b>
+        
+
+    <table class="table table-condensed">
+
+        <thead>
+
+            <tr>
+
+                <th>Year</th>
+
+                <th>Department</th>
+
+                <th>Percentage Attained</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>2007-2011</td>
+
+                <td>Information Technology</td>
+
+                <td>78</td>
+
+            </tr>
+
+           
+
+        </tbody>
+
+    </table>
+
+
+    
+    
+    </div>
+     <div class="graduate box"><h2> Graduate Details </h2>
+         <h3> Course Details </h3>
+    
+    
+
+    <table class="table table-hover">
+
+        <thead>
+
+            <tr>
+
+                <th>Course Number</th>
+
+                <th>Name</th>
+
+                <th>Grade Attained</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>ITMD-411</td>
+
+                <td>Intermediate Software Development</td>
+
+                <td>A</td>
+
+            </tr>
+
+            <tr>
+
+                <td>ITMD-562</td>
+
+                <td>Intermediate Web Application Development</td>
+
+                <td>A</td>
+
+            </tr>
+
+            <tr>
+
+                <td>ITMD-586</td>
+
+                <td>IT Audting</td>
+
+                <td>B</td>
+
+            </tr>
+
+            <tr>
+
+                <td>ITMD-565</td>
+
+                <td>Rich Internet Application</td>
+
+                <td>A</td>
+
+            </tr>
+            
+            <tr>
+
+                <td>ITMD-563</td>
+
+                <td>Intermediate Web Application Development</td>
+
+                <td>A</td>
+
+            </tr>
+            
+            <tr>
+
+                <td>ITMD-527</td>
+
+                <td>Data Analytics</td>
+
+                <td>A</td>
+
+            </tr>
+            
+            <tr>
+
+                <td>ITMD-531</td>
+
+                <td>Human and Computer Interaction</td>
+
+                <td>A</td>
+
+            </tr>
+            
+            <tr>
+
+                <td>ITMD-555</td>
+
+                <td>Android Development</td>
+
+                <td>A</td>
+
+            </tr>
+            
+            <tr>
+
+                <td>ITMD-523</td>
+
+                <td>Advanced Database Management</td>
+
+                <td>A   </td>
+
+            </tr>
+            
+        </tbody>
+
+    </table>
+
+</div>
+    
+</body>
+
+</html>
