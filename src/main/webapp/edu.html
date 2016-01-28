@@ -4,7 +4,6 @@
             <title>Education Details</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -41,33 +40,34 @@ $(document).ready(function(){
       <a class="navbar-brand" href="#">Rakesh Portfolio</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">About Me</a></li>
-      <li><a href="edu.html">Education Details</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+      <li><a href="home.html">About Me</a></li>
+      <li class="active"><a href="edu.html">Education Details</a></li>
     </ul>
   </div>
 </nav>
 
-  <div class="container">
-      <span> Choose the Education Level to get the information: </span>
+  <div class="container jumbotron">
+      <span style="position: absolute; left: 342px; top: 37px;"> Choose the Education Level to get the information: 
         <select> 
             <option>Select</option>
             <option value="school">School</option>
             <option value="college">Undergraduate</option>
             <option value="graduate">Graduate</option>
         </select>
+          </span>
     </div>
-    <div class="school box">You have selected <strong>red option</strong> so i am here
-    
+    <div class="school box">
+        <h2> School Information </h2> 
 
-    <table class="table">
+    <table class="table table-hover">
 
         <thead>
 
             <tr>
 
                 <th>Year</th>
+                
+                <th>School</th>
 
                 <th>Standard</th>
 
@@ -82,6 +82,8 @@ $(document).ready(function(){
             <tr class="active">
 
                 <td>2005</td>
+                
+                <td>Petit</td>
 
                 <td>10th</td>
 
@@ -92,6 +94,8 @@ $(document).ready(function(){
             <tr class="active">
 
                 <td>2007</td>
+                
+                <td>Petit</td>
 
                 <td>12th</td>
 
@@ -103,14 +107,14 @@ $(document).ready(function(){
 
     </table>
     </div>
-     <div class="college box"><b> UNDERGRAD INFORMATION</b>
+     <div class="college box"><h2> Undergrad Information</h2>
         
 
-    <table class="table table-condensed">
+    <table class="table table-hover">
 
         <thead>
 
-            <tr>
+            <tr class="active">
 
                 <th>Year</th>
 
@@ -124,7 +128,7 @@ $(document).ready(function(){
 
         <tbody>
 
-            <tr>
+            <tr class="active">
 
                 <td>2007-2011</td>
 
@@ -139,10 +143,7 @@ $(document).ready(function(){
         </tbody>
 
     </table>
-
-
-    
-    
+         
     </div>
      <div class="graduate box"><h2> Graduate Details </h2>
          <h3> Course Details </h3>
@@ -153,7 +154,7 @@ $(document).ready(function(){
 
         <thead>
 
-            <tr>
+            <tr class="active">
 
                 <th>Course Number</th>
 
@@ -167,7 +168,7 @@ $(document).ready(function(){
 
         <tbody>
 
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-411</td>
 
@@ -177,7 +178,7 @@ $(document).ready(function(){
 
             </tr>
 
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-562</td>
 
@@ -187,7 +188,7 @@ $(document).ready(function(){
 
             </tr>
 
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-586</td>
 
@@ -197,7 +198,7 @@ $(document).ready(function(){
 
             </tr>
 
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-565</td>
 
@@ -207,7 +208,7 @@ $(document).ready(function(){
 
             </tr>
             
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-563</td>
 
@@ -217,7 +218,7 @@ $(document).ready(function(){
 
             </tr>
             
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-527</td>
 
@@ -227,7 +228,7 @@ $(document).ready(function(){
 
             </tr>
             
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-531</td>
 
@@ -237,7 +238,7 @@ $(document).ready(function(){
 
             </tr>
             
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-555</td>
 
@@ -247,7 +248,7 @@ $(document).ready(function(){
 
             </tr>
             
-            <tr>
+            <tr class="active">
 
                 <td>ITMD-523</td>
 

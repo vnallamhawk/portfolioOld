@@ -11,14 +11,22 @@ and open the template in the editor.
 .container{
     position:absolute;
     top:70px; 
+    width:550px;
+    left:82px;
+    border: 1px solid #000;
 }
 
 .box{
         padding: 20px;
         display: none;
-        margin-top: 100px;
+        width: 601px;
+        left: 27%;
+        position: absolute;
+        top: 30%;
         border: 1px solid #000;
     }
-    .school{ background: #ff0000; }
-    .college{ background: #00ff00; }
-    .graduate{ background: #0000ff; }
+    .school{ background: #EEEEEE; }
+    .college{ background: #EEEEEE; }
+    .graduate{ background: #EEEEEE; }
+    
+    
