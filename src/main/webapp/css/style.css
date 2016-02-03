@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2016, 7:37:04 PM
+    Author     : VenkataRakesh
+*/
+
+.container{
+    position:absolute;
+    top:70px; 
+    width:550px;
+    left:82px;
+    border: 1px solid #000;
+}
+
+.box{
+        padding: 20px;
+        display: none;
+        width: 601px;
+        left: 27%;
+        position: absolute;
+        top: 30%;
+        border: 1px solid #000;
+    }
+    .school{ background: #EEEEEE; }
+    .college{ background: #EEEEEE; }
+    .graduate{ background: #EEEEEE; }
+    
+    
